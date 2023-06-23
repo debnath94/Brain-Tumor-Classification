@@ -18,7 +18,7 @@ def main():
     st.text("Upload an MRI scan image for tumor classification")
 
     # File upload
-    uploaded_file = st.file_uploader("Choose an MRI scan image or video", type=["jpg", "jpeg", "png"])
+    uploaded_file = st.file_uploader("Choose an MRI scan image or video", type=["jpg", "jpeg", "png"], accept_multiple_files=True)
 
     if uploaded_file is not None:
         # Display the uploaded image
