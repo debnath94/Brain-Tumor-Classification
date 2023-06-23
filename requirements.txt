@@ -3,3 +3,4 @@ tensorflow
 streamlit
 scikit-learn
 streamlit-option-menu
+TensorRT
